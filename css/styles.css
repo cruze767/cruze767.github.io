@@ -1,11 +1,24 @@
 head{
-text-align:center;   
+text-align:center;  
+font-size: 50%;
 }
 
 
 body{
 text-align:center;
-background-size: 1000px ;
+background-size: 1000px;
+}
+
+.paragraphs{
+line-height:20px ;   
+text-decoration: blink;
+/*text-decoration: overline; */
+border-width: 1px;
+border-radius: 60px;
+border-style: dotted;
+text-align:center;
+width: 500px;
+
 }
 
 
