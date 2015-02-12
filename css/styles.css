@@ -17,7 +17,20 @@ text-decoration: blink;
 /*border-radius: 50%;*/
 /*border-style: dotted;*/
 
-
 }
 
+.check{
+    display: inline-block;  
+    /*width: 15px;  */
+    /*height: 15px;  */
+    vertical-align:middle;
+    margin-right: 8px;  
+    background-color: #aaa;  
+    border-radius: 4px;  
+}
 
+mark {
+background-color:2EB0A9;
+color: white;
+padding:1.5px;
+}
