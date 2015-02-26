@@ -1,0 +1,77 @@
+head{
+text-align:center;  
+font-size: 50%;
+margin: 100px auto;
+}
+
+
+body{
+text-align:center;
+
+}
+
+.paragraphs{
+line-height:20px ;   
+/*text-decoration: blink;*/
+/*text-decoration: overline; */
+/*border-width: 1px;*/
+/*border-radius: 50%;*/
+/*border-style: dotted;*/
+
+}
+
+.check{
+    display: inline-block;  
+    /*width: 15px;  */
+    /*height: 15px;  */
+    vertical-align:middle;
+    margin-right: 8px;  
+    background-color: #aaa;  
+    border-radius: 4px;  
+}
+
+mark {
+background-color:2EB0A9;
+color: white;
+padding:1.5px;
+}
+
+#head {
+      position:relative;
+      z-index:200;
+ 
+    
+}
+
+#container{
+    width:960px;
+    height:auto;
+    position: relative;
+    margin: 0 auto;   
+}
+
+
+#paper{
+    
+    width: 960px;
+    position:absolute;
+    top:0;
+    bottom:0;
+    margin: 0 auto;
+
+    
+}
+#letter{
+    position:absolute;
+    z-index:100;
+    width:960px;
+    margin: 0 auto;
+    
+}
+
+#back{
+ 
+
+ z-index:500;
+ 
+}
