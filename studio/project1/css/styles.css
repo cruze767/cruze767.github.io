@@ -1,0 +1,66 @@
+html, body {
+	font-family: 'helvetica', 'arial', sans-serif;
+	background-color: #eee;
+	color: #000;
+    height:100%;
+    padding:0;
+    margin:0;
+}
+
+#thing {
+    position:relative;   
+    font-family: 'helvetica', 'arial', sans-serif;
+    font-size: 14px;
+	background-color: #eee;
+	color: #000;
+	width:150px;
+	margin-top:10px;
+	margin-left:20;
+	line-height: 130%;
+	
+}
+ #wrapper {
+    width: 960px;
+    margin:0 auto;
+    
+}
+
+#picture {
+      display: block;
+      padding-top:40px;
+      margin:0 auto;
+      width:600px;
+      
+}
+
+#good {
+    width: 960px;
+    margin:0 auto;
+    text-align:center;
+    padding-top:20;
+    padding-bottom:80px;
+}
+    
+ 
+
+#nav{
+    width:960px;
+    font-size:0;
+    
+}
+
+
+/*
+#icon1:hover{
+  background:url("graffiti.jpg");
+    
+}
+*/
+
+
+
+#icons li {
+    margin: 0;
+    padding: 0;
+   display:inline-block;
+}
