@@ -1,23 +1,16 @@
 head{
-text-align:center;  
+
 font-size: 50%;
-margin: 100px auto;
 }
 
 
 body{
-text-align:center;
-
+    text-align:center;
+     background-image: url("desk.jpg"); 
 }
 
 .paragraphs{
 line-height:20px ;   
-/*text-decoration: blink;*/
-/*text-decoration: overline; */
-/*border-width: 1px;*/
-/*border-radius: 50%;*/
-/*border-style: dotted;*/
-
 }
 
 .check{
@@ -48,6 +41,7 @@ padding:1.5px;
     height:auto;
     position: relative;
     margin: 0 auto;   
+   
 }
 
 
@@ -70,7 +64,6 @@ padding:1.5px;
 }
 
 #back{
- 
 
  z-index:500;
  
