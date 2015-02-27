@@ -3,52 +3,66 @@
 <html>
     <head>
         <link rel="stylesheet" href="css/styles.css" type="text/css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     </head>
 <body>
     <div id="thing">
-        <p><strong>The Thing
-            <br>1001 Greenpoint
-            <br>Brooklyn NY
+        
+        <p>
+            <strong>The Thing
+                
+                <br>1001 Greenpoint
+                <br>Brooklyn NY
             
             </strong></p>
         </div>
 
 
         <div id="wrapper">
+            <a href="#" class="menu"><img src="images/menu.png"></a>
+        
                 <div id="picture">
                     <img src ="images/dig.jpg">
                 </div>
                 
-          <div id= "good" >
-                <h1>
-                Good Things Come To Those Who Dig
-                </h1>
-                
-                <a href="#icons"><img style="width:40px;" src="images/bottom.png"></a>
-         
+          <div id="good">
+            <h1>
+            Good Things Come To Those Who Dig
+            </h1>
+            <a href="#graffiti"><img style="width:40px;" src="images/bottom.png"></a>
+          </div>
+          
+          <div class="nav inline">
+            <div class="nav-wrapper">
+                <div id="icon1"><a href="#"><img style= "width:180px;" src ="images/icon1.png"></a></div>
+                <div id="icon2"><a href="#records"><img style= "width:180px;" src ="images/icon2.png"></a></div>
+                <div id="icon3"><a href="#"><img style= "width:180px;" src ="images/icon3.png"></a></div>
+            </div>
+        </div>
+          
+          <div id="graffiti">
+              content here...
+          </div>
+          
+          <div id="records">
+              content here...
+          </div>
+          
+          <div id="signage">
+              content here...
           </div>
             
-        
-            
          
-          
-          <!--<div id= "nav">-->
-          <!--      <img src ="images/graffiti.jpg">-->
-          <!--      <img src ="images/record.jpg">-->
-                <!--<img src ="images/signage.jpg">-->
-            
-    <div id= "nav">
-        <ul id="icons">
-            
-                <li><img style= "width:180px;" src ="images/icon1.png"></li>
-                <li><img style= "width:180px;" src ="images/icon2.png"></li>
-                <li><img style= "width:180px;" src ="images/icon3.png"></li>
-                
-            </ul>
+        <div class="nav">
+            <div class="nav-wrapper">
+                <div id="icon1"><a href="#graffiti"><img style= "width:180px;" src ="images/icon1.png"></a></div>
+                <div id="icon2"><a href="#records"><img style= "width:180px;" src ="images/icon2.png"></a></div>
+                <div id="icon3"><a href="#signage"><img style= "width:180px;" src ="images/icon3.png"></a></div>
+            </div>
         </div>
     </div>      
-        <!--</div> -->
-
+       
+    <script src="js/application.js"></script>
 </body>
 
 </html>
