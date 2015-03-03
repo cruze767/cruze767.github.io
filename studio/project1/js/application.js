@@ -9,3 +9,4 @@ $('.close').click(function(event) {
     
     $('.nav').removeClass('show');
 });
+
