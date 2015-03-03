@@ -88,20 +88,37 @@ html, body {
     right:20%;
     width:180px;
     height:180px;
-    background-image: url('../images/icon1.png'); 
     
 }
 
 .icon1:hover{
     width:180px; 
     height:180px; 
-    background-image: url('../images/record.jpg'); 
+    background-image: url('../images/graffiti.jpg'); 
 }
 
+.icon2{
+    position:relative;
+    width:180px;
+    height:180px;
+    
+}
+
+.icon2:hover{
+    width:180px; 
+    height:180px; 
+    background-image: url('../images/record7.jpg');
+}
 
 .icon3{
     position:relative;
     left:20%;
+}
+
+.icon3:hover{
+    width:180px; 
+    height:180px; 
+    background-image: url('../images/signage.jpg'); 
 }
 
        
@@ -113,6 +130,7 @@ html, body {
     width: 100%;
     height: 100%;
     font-size:0;
+    margin-bottom:60px;
     
 }
 
@@ -122,6 +140,7 @@ html, body {
     width: 100%;
     height: 100%;
     font-size:0;
+    margin-bottom:60px;
     
 }
 
@@ -162,10 +181,10 @@ html, body {
      left:670px;
 }
 
-.graffitimages{
+.graffitimages {
     position:relative;
     width:660px;
-    margin: 0 0 0 70 ;
+    margin: 40 0 0 70 ;
     font-size:0;
     top:0;
     bottom:0;
@@ -177,4 +196,25 @@ html, body {
     margin:10 10 10 10;
     
     
+}
+
+.recordimages{
+    position:relative;
+    top:0;
+    bottom:0;
+    width:660px;
+    margin: 40 0 0 0;
+    font-size:0;
+    right:240;
+    
+}
+
+.signageimages{
+     position:relative;
+     width:660px;
+     top:0;
+     bottom:0;
+     right:520;
+     margin:40 0 0 0;
+     
 }
