@@ -11,6 +11,7 @@ html, body {
 
 #wrapper{
     width:960px;
+    height:100%;
      margin:0 auto;
 
 }
@@ -20,16 +21,7 @@ html, body {
     margin-left:auto;
     margin-right:auto;
     width:960px;
-    
 }
-
-/*.folders1, .folders2, .folders3, .folders4, */
-/*.folders5, .folders6, .folders7, .folders8,*/
-/*.folders9, .folders10, .folders11, .folders12, */
-/*.folders13, .folders14, .folders15, .folders16,*/
-/*.folders17,{*/
-     
-/*}*/
 
 .folders1{
     position:relative;
@@ -37,8 +29,21 @@ html, body {
     margin:0 auto;
     z-index:1;
     margin-bottom:-350;
+    margin-top:80px;
+    padding-top:-20px;
 }
 
+
+.folders1:hover{
+    position:relative;
+    bottom:60px;
+    width:650px;
+    margin:0 auto;
+    z-index:1;
+    margin-bottom:-350;
+    margin-top:80px;
+    
+}
 
 .folders2{
     position:relative;
@@ -50,12 +55,30 @@ html, body {
     
 }
 
+.folders2:hover{
+    position:relative;
+    bottom:70px;
+    width:650px;
+    margin:0 auto;
+    z-index:2;
+    margin-bottom:-350;
+}
+
 .folders3{
     position:relative;
     margin:0 auto;
     width:650px;
     margin-bottom:-350;
     z-index:3;
+}
+
+.folders3:hover{
+    position:relative;
+    bottom:70px;
+    width:650px;
+    margin:0 auto;
+    z-index:3;
+    margin-bottom:-350;
 }
 
 
@@ -67,6 +90,16 @@ html, body {
     z-index:4;
 }
 
+.folders4:hover{
+    position:relative;
+    bottom:70px;
+    width:650px;
+    margin:0 auto;
+    z-index:4;
+    margin-bottom:-350;
+}
+
+
 
 .folders5{
     position:relative;
@@ -76,6 +109,16 @@ html, body {
     z-index:5;
 }
 
+.folders5:hover{
+    position:relative;
+    bottom:70px;
+    width:650px;
+    margin:0 auto;
+    z-index:5;
+    margin-bottom:-350;
+}
+
+
 .folders6{
     position:relative;
     margin:0 auto;
@@ -84,6 +127,16 @@ html, body {
     z-index:6;
 }
 
+.folders6:hover{
+    position:relative;
+    bottom:70px;
+    width:650px;
+    margin:0 auto;
+    z-index:6;
+    margin-bottom:-350;
+}
+
+
 .folders7{
     position:relative;
     margin:0 auto;
@@ -91,6 +144,16 @@ html, body {
     margin-bottom:-350;
     z-index:7;
 }
+
+.folders7:hover{
+    position:relative;
+    bottom:70px;
+    width:650px;
+    margin:0 auto;
+    z-index:7;
+    margin-bottom:-350;
+}
+
 
 
 .folders8{
@@ -101,6 +164,16 @@ html, body {
     z-index:8;
 }
 
+.folders8:hover{
+    position:relative;
+    bottom:70px;
+    width:650px;
+    margin:0 auto;
+    z-index:8;
+    margin-bottom:-350;
+}
+
+
 .folders9{
     position:relative;
     margin:0 auto;
@@ -108,6 +181,16 @@ html, body {
     margin-bottom:-350;
     z-index:9;
 }
+
+.folders9:hover{
+    position:relative;
+    bottom:70px;
+    width:650px;
+    margin:0 auto;
+    z-index:9;
+    margin-bottom:-350;
+}
+
 
 
 .folders10{
@@ -118,6 +201,16 @@ html, body {
     z-index:10;
 }
 
+.folders10:hover{
+    position:relative;
+    bottom:70px;
+    width:650px;
+    margin:0 auto;
+    z-index:10;
+    margin-bottom:-350;
+}
+
+
 
 .folders11{
     position:relative;
@@ -127,6 +220,16 @@ html, body {
     z-index:11;
 }
 
+.folders11:hover{
+    position:relative;
+    bottom:70px;
+    width:650px;
+    margin:0 auto;
+    z-index:11;
+    margin-bottom:-350;
+}
+
+
 .folders12{
     position:relative;
     margin:0 auto;
@@ -134,6 +237,16 @@ html, body {
     margin-bottom:-350;
     z-index:12;
 }
+
+.folders12:hover{
+    position:relative;
+    bottom:70px;
+    width:650px;
+    margin:0 auto;
+    z-index:12;
+    margin-bottom:-350;
+}
+
 
 
 .folders13{
@@ -144,6 +257,16 @@ html, body {
     z-index:13;
 }
 
+.folders13:hover{
+    position:relative;
+    bottom:70px;
+    width:650px;
+    margin:0 auto;
+    z-index:13;
+    margin-bottom:-350;
+}
+
+
 .folders14{
     position:relative;
     margin:0 auto;
@@ -151,6 +274,16 @@ html, body {
     margin-bottom:-350;
     z-index:14;
 }
+
+.folders14:hover{
+    position:relative;
+    bottom:70px;
+    width:650px;
+    margin:0 auto;
+    z-index:14;
+    margin-bottom:-350;
+}
+
 
 
 .folders15{
@@ -161,6 +294,16 @@ html, body {
     z-index:15;
 }
 
+.folders15:hover{
+    position:relative;
+    bottom:70px;
+    width:650px;
+    margin:0 auto;
+    z-index:15;
+    margin-bottom:-350;
+}
+
+
 .folders16{
     position:relative;
     margin:0 auto;
@@ -169,12 +312,31 @@ html, body {
     z-index:16;
 }
 
+.folders16:hover{
+    position:relative;
+    bottom:70px;
+    width:650px;
+    margin:0 auto;
+    z-index:16;
+    margin-bottom:-350;
+}
+
+
 .folders17{
     position:relative;
     margin:0 auto;
     width:650px;
     margin-bottom:-350;
     z-index:17;
+}
+
+
+.folders17:hover{
+    position:relative;
+    width:650px;
+    margin:0 auto;
+    z-index:17;
+    margin-bottom:-350;
 }
 
 
