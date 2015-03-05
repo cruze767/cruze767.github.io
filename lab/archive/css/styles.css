@@ -52,6 +52,7 @@ html, body {
     margin:0 auto;
     z-index:2;
     margin-bottom:-350;
+    
 
     
 }
@@ -63,6 +64,7 @@ html, body {
     margin:0 auto;
     z-index:2;
     margin-bottom:-350;
+    
 }
 
 
@@ -351,6 +353,7 @@ html, body {
     top:30px;
     text-decoration:none;
     color:#000;
+    cursor:se-resize;
     }
 
 #eva{
@@ -362,6 +365,7 @@ html, body {
     top:30px;
     text-decoration:none;
     color:#000;
+    cursor:se-resize;
     }
 
 #megan{
@@ -373,6 +377,7 @@ html, body {
     top:30px;
     text-decoration:none;
     color:#000;
+    cursor:se-resize;
 }
 
 #theresa{
@@ -384,6 +389,7 @@ html, body {
     top:30px;
     text-decoration:none;
     color:#000;
+    cursor:se-resize;
     
 }
 
@@ -396,6 +402,7 @@ html, body {
     top:30px;
     text-decoration:none;
     color:#000;
+    cursor:se-resize;
     
 }
 
@@ -408,6 +415,7 @@ html, body {
     top:30px;
     text-decoration:none;
     color:#000;
+    cursor:se-resize;
     
 }
 
@@ -420,6 +428,7 @@ html, body {
     top:30px;
     text-decoration:none;
     color:#000;
+    cursor:se-resize;
     
 }
 
@@ -432,6 +441,7 @@ html, body {
     top:37px;
     text-decoration:none;
     color:#000;
+    cursor:se-resize;
     
 }
 
@@ -441,9 +451,10 @@ html, body {
     width:90px;
     z-index:1;
     left:12px;
-    top:30px;
+    top:35px;
     text-decoration:none;
     color:#000;
+    cursor:se-resize;
     
 }
 
@@ -456,6 +467,7 @@ html, body {
     top:30px;
     text-decoration:none;
     color:#000;
+    cursor:se-resize;
     
 }
 
@@ -468,6 +480,7 @@ html, body {
     top:30px;
     text-decoration:none;
     color:#000;
+    cursor:se-resize;
     
 }
 
@@ -477,10 +490,10 @@ html, body {
     width:90px;
     z-index:1;
     left:12px;
-    top:30px;
+    top:35px;
     text-decoration:none;
     color:#000;
-    
+    cursor:se-resize;
 }
 
 #conny{
@@ -492,6 +505,7 @@ html, body {
     top:30px;
     text-decoration:none;
     color:#000;
+    cursor:se-resize;
     
 }
 
@@ -504,6 +518,7 @@ html, body {
     top:30px;
     text-decoration:none;
     color:#000;
+    cursor:se-resize;
     
 }
 
@@ -516,6 +531,7 @@ html, body {
     top:30px;
     text-decoration:none;
     color:#000;
+    cursor:se-resize;
     
 }
 
@@ -528,6 +544,7 @@ html, body {
     top:30px;
     text-decoration:none;
     color:#000;
+    cursor:se-resize;
     
 }
 
@@ -540,5 +557,8 @@ html, body {
     top:30px;
     text-decoration:none;
     color:#000;
+    cursor:se-resize;
     
 }
+
+
