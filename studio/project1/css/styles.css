@@ -1,0 +1,283 @@
+html, body {
+	font-family: 'helvetica', 'arial', sans-serif;
+	background-color: #eee;
+    height:100%;
+    padding:0;
+    margin:0;
+    background: #fff;
+    color:#000000;
+}
+
+.menu {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    z-index:10;
+}
+
+#thing {   
+    font-family: 'helvetica', 'arial', sans-serif;
+    font-size: 14px;
+	background-color: #eee;
+	width:120px;
+	margin-top:10px;
+	margin-left:20;
+	line-height: 130%;
+	background: #fff;
+	text-decoration: none;
+	
+	
+}
+ #wrapper {
+    width: 960px;
+    margin:0 auto;
+    
+}
+
+#picture {
+      display: block;
+      padding-top:40px;
+      margin:0 auto;
+      width:600px;
+}
+
+#good {
+    width: 960px;
+    margin:0 auto;
+    text-align:center;
+    padding-top:20;
+    padding-bottom:80px;
+}
+    
+.close {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+
+}
+
+.navup{
+    position:absolute;
+    top:4%;
+    left:48.5%;
+    
+}
+
+
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size:0;
+    display: none;
+    background: #fff;
+}
+
+
+
+.nav.show {
+    display: block;
+}
+
+.nav-wrapper {
+    position: absolute;
+    width:545;
+    margin:0 auto;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+
+
+
+.menuicon1{
+    display:inline;
+   position:relative;
+    right:20%;
+
+}
+
+.menuicon2{
+   display:inline;   
+}
+
+.menuicon3{
+    display:inline;
+    position:relative;
+    left:20%;
+}
+
+
+.nav.inline {
+    position: relative;
+    display: block;
+}
+
+
+.icon1, .icon2, .icon3{
+    display:inline-block
+
+}
+
+.icon1{
+    position:relative;
+    right:20%;
+    width:180px;
+    height:180px;
+    
+}
+
+.icon1:hover{
+    width:180px; 
+    height:180px; 
+    background-image: url('../images/graffiti.jpg'); 
+}
+
+.icon2{
+    position:relative;
+    width:180px;
+    height:180px;
+    
+}
+
+.icon2:hover{
+    width:180px; 
+    height:180px; 
+    background-image: url('../images/record7.jpg');
+}
+
+.icon3{
+    position:relative;
+    left:20%;
+}
+
+.icon3:hover{
+    width:180px; 
+    height:180px; 
+    background-image: url('../images/signage.jpg'); 
+}
+
+
+#graffiti{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size:0;
+    margin-bottom:60px;
+    margin-top:300;
+    
+}
+
+#records{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size:0;
+    margin-bottom:60px;
+    margin-top:300;
+    
+}
+
+
+#signage{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size:0;
+    margin-top:300;
+    
+    
+}
+
+
+
+.icon1wrapper{
+     position:relative;
+     width:180px;
+     height:180px;
+     left:9%;
+}
+
+
+.icon2wrapper{
+     display:block;
+     position:relative;
+     width:180px;
+     height:180px;
+     margin:0 auto;
+}
+
+    
+.icon3wrapper{
+     display:block;
+     position:relative;
+     width:180px;
+     height:180px;
+     left:670px;
+}
+
+
+.images{
+    display:inline-block;
+    margin:10 10 10 10;
+    
+    
+}
+
+.graffitimages {
+    position:relative;
+    width:660px;
+    margin: 40 0 0 70 ;
+    font-size:0;
+    top:0;
+    bottom:0;
+    
+}
+
+
+
+.recordimages{
+    position:relative;
+    top:0;
+    bottom:0;
+    width:660px;
+    margin: 40 0 0 0;
+    font-size:0;
+    right:240;
+    
+}
+
+.signageimages{
+     position:relative;
+     width:660px;
+     top:0;
+     bottom:0;
+     right:520;
+     margin:40 0 0 0;
+     
+}
+
+
+
+#graffiti1, #graffiti2, #graffiti3, #graffiti4, #graffiti5, #graffiti6,
+#graffiti7, #graffiti8, #graffiti9, #record10, #record11, #record12,
+#record13, #record14, #record15, #record16, #record17, #record18,
+#signage19, #signage20, #signage21, #signage22, #signage23, #signage24,
+#signage25, #signage26, #signage27 {
+
+  position: fixed; 
+  top: 0; 
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  
+}   
+
+

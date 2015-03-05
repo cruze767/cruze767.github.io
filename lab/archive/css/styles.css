@@ -1,0 +1,181 @@
+html, body {
+	font-family: 'helvetica', 'arial', sans-serif;
+	background-color: #eee;
+    height:100%;
+    padding:0;
+    margin:0;
+    background: #fff;
+    color:#000000;
+}
+
+
+#wrapper{
+    width:960px;
+     margin:0 auto;
+
+}
+    
+
+#all{
+    margin-left:auto;
+    margin-right:auto;
+    width:960px;
+    
+}
+
+/*.folders1, .folders2, .folders3, .folders4, */
+/*.folders5, .folders6, .folders7, .folders8,*/
+/*.folders9, .folders10, .folders11, .folders12, */
+/*.folders13, .folders14, .folders15, .folders16,*/
+/*.folders17,{*/
+     
+/*}*/
+
+.folders1{
+    position:relative;
+    width:650px;
+    margin:0 auto;
+    z-index:1;
+    margin-bottom:-350;
+}
+
+
+.folders2{
+    position:relative;
+    width:650px;
+    margin:0 auto;
+    z-index:2;
+    margin-bottom:-350;
+
+    
+}
+
+.folders3{
+    position:relative;
+    margin:0 auto;
+    width:650px;
+    margin-bottom:-350;
+    z-index:3;
+}
+
+
+.folders4{
+    position:relative;
+    margin:0 auto;
+    width:650px;
+    margin-bottom:-350;
+    z-index:4;
+}
+
+
+.folders5{
+    position:relative;
+    margin:0 auto;
+    width:650px;
+    margin-bottom:-350;
+    z-index:5;
+}
+
+.folders6{
+    position:relative;
+    margin:0 auto;
+    width:650px;
+    margin-bottom:-350;
+    z-index:6;
+}
+
+.folders7{
+    position:relative;
+    margin:0 auto;
+    width:650px;
+    margin-bottom:-350;
+    z-index:7;
+}
+
+
+.folders8{
+    position:relative;
+    margin:0 auto;
+    width:650px;
+    margin-bottom:-350;
+    z-index:8;
+}
+
+.folders9{
+    position:relative;
+    margin:0 auto;
+    width:650px;
+    margin-bottom:-350;
+    z-index:9;
+}
+
+
+.folders10{
+   position:relative;
+    margin:0 auto;
+    width:650px;
+    margin-bottom:-350;
+    z-index:10;
+}
+
+
+.folders11{
+    position:relative;
+    margin:0 auto;
+    width:650px;
+    margin-bottom:-350;
+    z-index:11;
+}
+
+.folders12{
+    position:relative;
+    margin:0 auto;
+    width:650px;
+    margin-bottom:-350;
+    z-index:12;
+}
+
+
+.folders13{
+    position:relative;
+    margin:0 auto;
+    width:650px;
+    margin-bottom:-350;
+    z-index:13;
+}
+
+.folders14{
+    position:relative;
+    margin:0 auto;
+    width:650px;
+    margin-bottom:-350;
+    z-index:14;
+}
+
+
+.folders15{
+    position:relative;
+    margin:0 auto;
+    width:650px;
+    margin-bottom:-350;
+    z-index:15;
+}
+
+.folders16{
+    position:relative;
+    margin:0 auto;
+    width:650px;
+    margin-bottom:-350;
+    z-index:16;
+}
+
+.folders17{
+    position:relative;
+    margin:0 auto;
+    width:650px;
+    margin-bottom:-350;
+    z-index:17;
+}
+
+
+
