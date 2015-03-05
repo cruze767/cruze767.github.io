@@ -11,9 +11,6 @@ $('.close').click(function(event) {
 });
 
 
-
-
-
 $('.navup').click(function(event) {
     
     $('.nav').removeClass('show');
