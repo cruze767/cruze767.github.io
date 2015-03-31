@@ -935,7 +935,7 @@ html, body{
 .wrapper {
     position:relative;
     -webkit-transition-property: -webkit-transform;
-    -webkit-transition-duration: 5s;
+    -webkit-transition-duration: 6s;
     -moz-transition-property: -moz-transform;
     -moz-transition-duration: 6s;
     transition-property: transform;
