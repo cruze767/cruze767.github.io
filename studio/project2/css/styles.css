@@ -1,10 +1,23 @@
 html, body{
+    font:helvetica;
     height:100%;
     padding:0;
     margin:0;
     background-color: #fff;
     
 }
+
+
+
+.d_page{
+    position:relative;
+    padding:0;
+    margin: 0 auto;
+    width:100%;
+    height:100%;
+    
+    
+    }
 
 
 .dot{
@@ -42,16 +55,16 @@ html, body{
     
 }
 
-.d_vid{
-    
-    position:absolute;
-    margin:0 auto;
-    width:100%;
-    height:100%;
-    background-color:eee;
-    bottom:1;
-    display:none;
+
+
+.wrapper_container{
+    position:absolute;  
+    z-index:1;
+    display:inline-block;
 }
+
+
+
 
 
 /*LETTER AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*/
@@ -115,6 +128,7 @@ html, body{
 /*    }*/
 
 /*LETTER BBBBBBBBBBBBBBBBBBBBBBBBBB*/
+
 
 .wrapper_b {
     position:absolute;
@@ -197,22 +211,66 @@ html, body{
 
 /*LETTER DDDDDDDDDDDDDDDDDDDDDDDDD*/
 
-.wrapper_d {
-    top:40px;
-    left:320px;
+
+.wrapper_doop_d{
+    
+    top:370px;
+    left:20px;
     position:absolute;
     height:80px;
     width:80px;
-    transform: rotate(40deg);
+    margin-top:-340;
     
+        
+}
+
+
+.doop{
+     height:80px;
+     width:70px;
+     border-radius: 40px 90px 90px 40px;
+     background-color:#47D1D1;
+}
+
+
+.wrapper_d {
+    top:33px;
+    left:325px;
+    position:absolute;
+    height:80px;
+    width:80px;
+    transform: rotate(30deg);
 
 }
+
+.helper {
+    position:absolute;
+    font-family:helvetica;
+    top:20px;
+    left:20px;    
+    }
+    
+    
+.wrapper_d:hover .doop_words{
+    position:absolute;
+    display:block;
+    font-family:helvetica;
+    top:20px;
+    left:20px;
+    /*transition:1s;*/
+    
+ }
+    
+    
+    
 
 .d:hover, .d1:hover, .d2:hover, .d3:hover{
    
     background-color:#47D1D1;
         
     }
+    
+
 
 .wrapper_d1 {
     top:350px;
@@ -254,6 +312,15 @@ html, body{
      border-radius: 40px 90px 90px 40px;
      background-color:#000;
 }
+
+.doop_d{
+    height:80px;
+    width:70px;
+    border-radius: 40px 90px 90px 40px;
+    background-color:#47D1D1;
+}
+
+
     
 .dot_d, .dot_d1, .dot_d2, .dot_d3{
      position:relative;
@@ -265,6 +332,20 @@ html, body{
      background-color:#fff;
     
 }
+
+
+.dot_doop_d{
+     position:relative;
+     left:23;
+     top:30;
+     height:20px;
+     width:20px;
+     border-radius: 90px 90px 90px 90px;
+     background-color:#000;
+    
+}
+
+
 
 
 
@@ -315,7 +396,7 @@ html, body{
 
 .dot_f{
      position:relative;
-     top:30;
+     top:23;
      left:28;
      height:20px;
      width:20px;
@@ -441,6 +522,8 @@ html, body{
 }
 
 
+
+
 .ltop{
      position:absolute;
      height:80px;
@@ -515,6 +598,49 @@ html, body{
 }
 
 
+/*LETTER OOOOOOOOOOOOOOOOOOOOOOOOOOOO*/
+
+.wrapper_doop_o{
+    position:absolute;
+    left:110px;
+    height:90px;
+    width:90px;
+    
+    top:283;
+    
+
+}
+
+.wrapper_doop_o1{
+    position:absolute;
+    left:205px;
+    height:90px;
+    width:90px;
+
+    top:195;
+    }
+
+.doop_o{
+     height:80px;
+     width:80px;
+     border-radius: 90px 90px 90px 90px;
+     background-color:#47D1D1;
+    
+}
+
+
+.dot_doop_o{
+    position:relative;
+     top:30px;
+     right:-30px;
+     height:20px;
+     width:20px;
+     border-radius: 90px 90px 90px 90px;
+     background-color:#000;
+     
+}
+
+
 
 
 
@@ -564,6 +690,18 @@ html, body{
     
 /*LETTER PPPPPPPPPPPPPPPPPPPPPPPPPPP*/
 
+.wrapper_doop_p{
+    position:absolute;
+    height:80px;
+    width:80px;
+    top:110;
+    left:305px;
+}
+
+
+
+
+
 .wrapper_p{
     position:absolute;
     height:80px;
@@ -581,7 +719,16 @@ html, body{
     border-radius:70px 40px 40px 40px;
     background-color:#000;
     
-    }
+}
+    
+.doop_p_top{
+    position:relative;
+    width:80px;
+    height:60px;
+    border-radius:70px 40px 40px 40px;
+    background-color:#47D1D1;
+    
+}
     
 .p_bottom{
     position:relative;
@@ -591,15 +738,35 @@ html, body{
     background-color:#000;
     transform:rotate(0deg);
 }
+
+.doop_p_bottom{
+    position:relative;
+    width:40px;
+    height:80px;
+    border-radius:70px 0px 70px 70px;
+    background-color:#47D1D1;
+    transform:rotate(0deg);
+}
     
 .dot_p{
     position:relative;
-     top:30;
+     top:25;
      left:30;
      height:20px;
      width:20px;
      border-radius: 90px 90px 90px 90px;
      background-color:#fff;
+}
+
+
+.dot_doop_p{
+    position:relative;
+     top:25;
+     left:30;
+     height:20px;
+     width:20px;
+     border-radius: 90px 90px 90px 90px;
+     background-color:#000;
 }
 
 
@@ -796,7 +963,7 @@ html, body{
     
      right:31;
      height:80px;
-     width:32px;
+     width:33px;
      border-radius: 15px 15px 0px 0px;
      background-color:#000;
        /*transform: rotate(-10deg);*/
@@ -823,10 +990,7 @@ html, body{
     width:80px;
     top:15px;
     left:145;
-    transform: scale(-1, 1);
     transform:rotate(-15deg);
-    
-
 }
 
 
@@ -839,6 +1003,7 @@ html, body{
      width:20px;
      border-radius: 90px 90px 90px 90px;
      background-color:#fff;
+     
 }
 
 
@@ -848,6 +1013,7 @@ html, body{
      width:80px;
      border-radius: 50px 20px 90px 50px;
      background-color:#000;
+     transform: scale(-1, 1);
 }
 
 
@@ -859,6 +1025,7 @@ html, body{
      top:40px;
      border-radius: 90px 50px 50px 20px;
      background-color:#000;
+    
      
 }
 
@@ -931,45 +1098,27 @@ html, body{
 
 
 /*/////////////////////////////////////ROTATION*/
-
-.wrapper {
-    position:relative;
-    -webkit-transition-property: -webkit-transform;
-    -webkit-transition-duration: 6s;
-    -moz-transition-property: -moz-transform;
-    -moz-transition-duration: 6s;
-    transition-property: transform;
-    transition-duration: 6s;
-}
-.wrapper:hover {
-    -webkit-animation-name: rotate; 
-    -webkit-animation-duration: 6s; 
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    -moz-animation-name: rotate; 
-    -moz-animation-duration: 6s; 
-    -moz-animation-iteration-count: infinite;
-    -moz-animation-timing-function: linear;
-    animation-name: rotate; 
-    animation-duration: 6s; 
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
-@-webkit-keyframes rotate {
-    from {-webkit-transform: rotate(0deg);}
-    to {-webkit-transform: rotate(360deg);}
-}
-
-@-moz-keyframes rotate {
-    from {-moz-transform: rotate(0deg);}
-    to {-moz-transform: rotate(360deg);}
-}
-
-@keyframes rotate {
-    from {transform: rotate(0deg);}
-    to {transform: rotate(360deg);}
-}
-
-
 /*/////////////////////////////////////ROTATION*/
 
+
+.wrapper{
+    position:relative;
+    -webkit-animation:spin 15s linear infinite;
+    -moz-animation:spin 15s linear infinite;
+    animation:spin 15s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+
+.wrapper_doop_d, .wrapper_doop_p, .wrapper_doop_o, .wrapper_doop_o1 {
+    position:relative;
+    -webkit-animation:spin 5s linear infinite;
+    -moz-animation:spin 5s linear infinite;
+    animation:spin 5s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
