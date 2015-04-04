@@ -243,24 +243,16 @@ html, body{
 
 }
 
-.helper {
-    position:absolute;
-    font-family:helvetica;
-    top:20px;
-    left:20px;    
-    }
+
     
-    
-.wrapper_d:hover .doop_words{
+.helper-text{
     position:absolute;
-    display:block;
     font-family:helvetica;
     top:20px;
     left:20px;
-    /*transition:1s;*/
-    
- }
-    
+    margin:0 0 0 0;
+    }
+
     
     
 
