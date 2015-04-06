@@ -119,7 +119,7 @@ html, body{
      background-color:#fff;
 }
 
-.wrapper_a:hover .aleft{
+.wrapper_a:hover .aleft, .aright, .amiddle{
    
     background-color:#FF9900;
         
