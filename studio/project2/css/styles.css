@@ -77,8 +77,10 @@ html, body{
     position:absolute;
     height:90px;
     width:90px;
-    bottom:200px;
+    top:200px;
     left:30px;
+    margin-top:-340;
+    
 }
 
 .singa_aleft{
