@@ -119,12 +119,25 @@ html, body{
      background-color:#fff;
 }
 
-.wrapper_a:hover .aleft ,
-.wrapper_a:hover .aright ,
-.wrapper_a:hover .amiddle ,
+.wrapper_a:hover .aleft 
+{ 
+    background-color:#FF9900; 
 
-{ background-color:#FF9900; }
-    
+}
+
+.wrapper_a:hover .amiddle 
+
+{ 
+    background-color:#FF9900; 
+
+}
+
+.wrapper_a:hover .aright
+
+{ 
+    background-color:#FF9900; 
+
+}
 
 
 
