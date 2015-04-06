@@ -17,6 +17,26 @@ html, body{
     height:100%;
 }
 
+.doop_wrapper{
+    position:absolute;
+    width:;
+    height:;
+    -webkit-transition: all 1s ease-in-out;
+            -moz-transition: all 1s ease-in-out;
+            -o-transition: all 1s ease-in-out;
+            -ms-transition: all 1s ease-in-out;
+    
+}
+
+
+.doop_wrapper:hover
+{
+-webkit-transform: translate(3em,0);
+            -moz-transform: translate(3em,0);
+            -o-transform: translate(3em,0);
+            -ms-transform: translate(3em,0);
+}
+
 
 .dot_middle{
     position:absolute;
