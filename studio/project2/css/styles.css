@@ -918,8 +918,6 @@ html, body{
     left:220;
     transform:rotate(-10deg);
     
-    
-
 }
 
 .dot_s{
@@ -953,6 +951,21 @@ html, body{
      background-color:#000;
      
 }
+
+.wrapper_s:hover .s_top
+
+{ 
+    background-color:#33CC33;
+
+}
+
+.wrapper_s:hover .s_bottom
+
+{ 
+    background-color:#33CC33;
+
+
+
 
 
 /*LETTER TTTTTTTTTTTTTTTTTTTTTTT*/
