@@ -73,9 +73,9 @@ html, body{
     position:absolute;
     height:90px;
     width:90px;
-    bottom:0px;
+    bottom:200px;
     left:0px;
-    z-index:20;
+    
     transform: rotate(180deg);
     
 }
@@ -1432,9 +1432,9 @@ html, body{
 
 .wrapper_singa_a {
     position:absolute;
-    -webkit-animation:spin 6s linear infinite;
-    -moz-animation:spin 6s linear infinite;
-    animation:spin 6s linear infinite;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
 }
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
