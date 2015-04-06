@@ -76,7 +76,8 @@ html, body{
     bottom:300px;
     left:290;
     transform: rotate(220deg);
-    margin-top:-340;
+    /*margin-top:-330;*/
+    z-index:20;
     
 }
 
