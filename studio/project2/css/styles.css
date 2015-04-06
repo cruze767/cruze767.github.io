@@ -192,17 +192,20 @@ html, body{
 }
 
 
-.bbottom:hover{
-   
+
+.wrapper_b:hover .btop 
+
+{ 
+   background-color:#FFFF66; 
+
+}
+
+.wrapper_b:hover .bbottom
+
+{ 
     background-color:#FFFF66;
-        
-    }
-    
-.btop:hover{
-   
-    background-color:#FFFF66;
-        
-    }
+
+}
 
 
 /*LETTER CCCCCCCCCCCCCCCCCCCCCCC*/
