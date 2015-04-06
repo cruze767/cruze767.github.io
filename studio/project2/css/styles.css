@@ -1325,8 +1325,46 @@ html, body{
     background-color:#000;
     }
     
+.wrapper_exclamation:hover .exclamation
 
+{ 
+    background-color:#99FF99;
+}
 
+.wrapper_exclamation:hover .exclamation_dot
+
+{ 
+    background-color:#99FF99;
+}
+
+.wrapper_exclamation1:hover .exclamation1
+
+{ 
+    background-color:#99FF99;
+}
+.wrapper_exclamation2:hover .exclamation2
+
+{ 
+    background-color:#99FF99;
+}
+
+.wrapper_exclamation2:hover .exclamation_dot2
+
+{ 
+    background-color:#99FF99;
+}
+
+.wrapper_exclamation3:hover .exclamation3
+
+{ 
+    background-color:#99FF99;
+}
+
+.wrapper_exclamation3:hover .exclamation_dot3
+
+{ 
+    background-color:#99FF99;
+}
 
 
 /*/////////////////////////////////////ROTATION*/
