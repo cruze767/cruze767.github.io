@@ -951,14 +951,14 @@ html, body{
      
 }
 
-.wrapper_s:hover .s_top
+.wrapper_s:hover .stop
 
 { 
     background-color:#CCFFFF;
 
 }
 
-.wrapper_s:hover .s_bottom
+.wrapper_s:hover .sbottom
 
 { 
     background-color:#CCFFFF;
