@@ -1247,6 +1247,20 @@ html, body{
      
 }
 
+.wrapper_z:hover .ztop
+
+{ 
+    background-color:#99CCFF;
+}
+
+.wrapper_z:hover .zbottom
+
+{ 
+    background-color:#99CCFF;
+}
+
+
+
 /*EXCLAMATION POINT!!!!!!!!!!!!!!!!!!!!*/
 
 .wrapper_exclamation{
