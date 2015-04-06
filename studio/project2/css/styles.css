@@ -20,7 +20,7 @@ html, body{
     }
 
 
-.dot{
+.dot_middle{
     position:absolute;
     width:15px;
     height:15px;
@@ -101,10 +101,10 @@ html, body{
 .amiddle{
      position:relative;
      top:10;
-     left:-21;
+     left:-41;
      height:70px;
      width:22px;
-     border-radius: 0px 0px 0px 0px;
+     margin:20px 20px 20px 20px;
      background-color:#000;
        /*transform: rotate(-10deg);*/
      
@@ -118,6 +118,24 @@ html, body{
      border-radius: 90px 90px 90px 90px;
      background-color:#fff;
 }
+
+.aleft:hover{
+   
+    background-color:#FF9900;
+        
+    }
+    
+.aright:hover{
+   
+    background-color:#FF9900;
+        
+    }
+    
+.amiddle:hover{
+   
+    background-color:#FF9900;
+        
+    }
 
 
 
@@ -170,6 +188,20 @@ html, body{
      background-color:#000;
      
 }
+
+
+.bbottom:hover{
+   
+    background-color:#FFFF66;
+        
+    }
+    
+.btop:hover{
+   
+    background-color:#FFFF66;
+        
+    }
+
 
 /*LETTER CCCCCCCCCCCCCCCCCCCCCCC*/
 
