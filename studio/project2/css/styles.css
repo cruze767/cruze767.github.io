@@ -528,14 +528,14 @@ html, body{
 
 }
 
-.wrapper_h:hover .hright1
+.wrapper_h1:hover .hright1
 
 { 
     background-color:#FF0000;
 
 }
 
-.wrapper_h:hover .hleft1
+.wrapper_h1:hover .hleft1
 
 { 
     background-color:#FF0000;
