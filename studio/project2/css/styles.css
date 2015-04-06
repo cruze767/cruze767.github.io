@@ -892,6 +892,19 @@ html, body{
      background-color:#000;
 }
 
+.wrapper_p:hover .p_top
+
+{ 
+    background-color:#33CC33;
+
+}
+
+.wrapper_p:hover .p_bottom
+
+{ 
+    background-color:#33CC33;
+
+
 
 /*LETTER SSSSSSSSSSSSSSSSSSSSSSSSSSSSSS*/
 
