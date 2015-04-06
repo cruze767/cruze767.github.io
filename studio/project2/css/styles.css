@@ -432,6 +432,27 @@ html, body{
      background-color:#fff;
     
     }
+    
+.wrapper_f:hover .f_top 
+
+{ 
+   background-color:#CC99FF; 
+
+}
+
+.wrapper_f:hover .f_top2
+
+{ 
+    background-color:#CC99FF;
+
+}
+
+.wrapper_f:hover .f_bottom
+
+{ 
+    background-color:#CC99FF;
+
+}
 
     
 /*LETTER HHHHHHHHHHHHHHHHHHHHHHH*/
