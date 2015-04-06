@@ -1342,6 +1342,13 @@ html, body{
 { 
     background-color:#99FF99;
 }
+
+.wrapper_exclamation1:hover .exclamation_dot1
+
+{ 
+    background-color:#99FF99;
+}
+
 .wrapper_exclamation2:hover .exclamation2
 
 { 
