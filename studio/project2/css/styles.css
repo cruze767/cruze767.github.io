@@ -73,10 +73,11 @@ html, body{
     position:absolute;
     height:80px;
     width:80px;
-    bottom:200px;
-    left:30px;
+    bottom:320px;
+    left:40px;
     /*margin-top:-330;*/
     z-index:20;
+    transform: rotate(180deg);
     
 }
 
@@ -85,7 +86,7 @@ html, body{
      height:80px;
      width:30px;
      border-radius:90px 10px 0px 90px;
-     background-color:#000;
+     background-color:#FF9900;
      /*transform: rotate(-10deg);*/
 }
 
@@ -95,7 +96,7 @@ html, body{
      height:80px;
      width:30px;
      border-radius: 10px 90px 90px 0px;
-     background-color:#000;
+     background-color:#FF9900;
      /*transform: rotate(20deg);*/
 }
 
@@ -105,9 +106,7 @@ html, body{
      left:-21;
      height:70px;
      width:22px;
-     
-     background-color:#000;
-       /*transform: rotate(-10deg);*/
+     background-color:#FF9900;
      
 }
 
@@ -117,7 +116,7 @@ html, body{
      height:20px;
      width:20px;
      border-radius: 90px 90px 90px 90px;
-     background-color:#fff;
+     background-color:#000;
 }
 
 .wrapper_a {
@@ -1078,56 +1077,36 @@ html, body{
     
 }
 
-
 .wrapper_t:hover .t_top
-
 { 
     background-color:#FFCCCC;
-
-
 }
-
 .wrapper_t:hover .t_bottom
-
 { 
     background-color:#FFCCCC;
-
-
 }
-
-
 .wrapper_t1:hover .t_bottom1
 
 { 
     background-color:#FFCCCC;
-
-
 }
 
 .wrapper_t1:hover .t_top1
 
 { 
     background-color:#FFCCCC;
-
-
 }
-
-
 
 .wrapper_t2:hover .t_top2
 
 { 
     background-color:#FFCCCC;
-
-
 }
 
 .wrapper_t2:hover .t_bottom2
 
 { 
     background-color:#FFCCCC;
-
-
 }
 
 /*LETTER UUUUUUUUUUUUUUUUUUUUUUUUUUUU*/
@@ -1452,12 +1431,12 @@ html, body{
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
 
-/*.wrapper_singa_a{*/
-/*    position:relative;*/
-/*    -webkit-animation:spin 5s linear infinite;*/
-/*    -moz-animation:spin 5s linear infinite;*/
-/*    animation:spin 5s linear infinite;*/
-/*}*/
-/*@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }*/
-/*@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }*/
-/*@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }*/
+.wrapper_singa_a {
+    position:absolute;
+    -webkit-animation:spin 5s linear infinite;
+    -moz-animation:spin 5s linear infinite;
+    animation:spin 5s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
