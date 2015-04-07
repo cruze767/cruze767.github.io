@@ -40,10 +40,8 @@ html, body{
 
 .boowrapper{
     position:absolute;
-    width:400px;
-    height:px;
     margin:0 auto;
-    left:20px;
+    background-color:;
     }
 
 
@@ -227,8 +225,9 @@ html, body{
     position:absolute;
     height:80px;
     width:80px;
-    top:205px;
+    top:0px;
     left:0;
+    display:inline-block;
     
 }
 
@@ -836,7 +835,8 @@ html, body{
     left:95px;
     height:90px;
     width:90px;
-    top:120;
+    top:0;
+    display:inline-block;
     }
     
 .wrapper_boo_o{
@@ -844,7 +844,8 @@ html, body{
     left:190px;
     height:90px;
     width:90px;
-    top:30;
+    top:0;
+    display:inline-block;
     } 
  
  
@@ -964,10 +965,6 @@ html, body{
     left:305px;
 }
 
-
-
-
-
 .wrapper_p{
     position:absolute;
     height:80px;
@@ -987,14 +984,6 @@ html, body{
     
 }
     
-.doop_p_top{
-    position:relative;
-    width:80px;
-    height:60px;
-    border-radius:70px 40px 40px 40px;
-    background-color:#47D1D1;
-    
-}
     
 .p_bottom{
     position:relative;
@@ -1003,6 +992,25 @@ html, body{
     border-radius:70px 0px 70px 70px;
     background-color:#000;
     transform:rotate(0deg);
+}
+
+.dot_p{
+    position:relative;
+     top:25;
+     left:30;
+     height:20px;
+     width:20px;
+     border-radius: 90px 90px 90px 90px;
+     background-color:#fff;
+}
+
+.doop_p_top{
+    position:relative;
+    width:80px;
+    height:60px;
+    border-radius:70px 40px 40px 40px;
+    background-color:#47D1D1;
+    
 }
 
 .doop_p_bottom{
@@ -1014,15 +1022,6 @@ html, body{
     transform:rotate(0deg);
 }
     
-.dot_p{
-    position:relative;
-     top:25;
-     left:30;
-     height:20px;
-     width:20px;
-     border-radius: 90px 90px 90px 90px;
-     background-color:#fff;
-}
 
 
 .dot_doop_p{
