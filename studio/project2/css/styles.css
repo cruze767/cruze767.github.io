@@ -9,40 +9,7 @@ html, body{
 
 
 
-.d_page{
-    position:relative;
-    padding:0;
-    margin: 0 auto;
-    width:100%;
-    height:100%;
-}
 
-.doop_wrapper{
-    position:relative;
-    margin:0 auto;
-    width:400px;
-    top:20px;
-    
-    -webkit-transition: all 1s ease-in-out;
-            -moz-transition: all 1s ease-in-out;
-            -o-transition: all 1s ease-in-out;
-            -ms-transition: all 1s ease-in-out;
-    
-}
-
-
-.doop_wrapper:hover{
--webkit-transform: translate(10em,0em);
-            -moz-transform: translate(10em,0);
-            -o-transform: translate(10em,0);
-            -ms-transform: translate(10em,0);
-}
-
-.boowrapper{
-    position:absolute;
-    margin:0 auto;
-    /*background-color:;*/
-    }
 
 
 .dot_middle{
@@ -1620,9 +1587,7 @@ html, body{
     height:80px;
     width:80px;
     top:0px;
-    left:0;
     display:inline-block;
-    /*text-align:center;*/
 }
 
 .dot_singa_s{
@@ -1648,7 +1613,6 @@ html, body{
 
 .s_singa_bottom{
      position:relative;
-   
      height:40px;
      width:80px;
      top:40px;
@@ -1863,3 +1827,31 @@ html, body{
      border-radius: 90px 90px 90px 90px;
      background-color:#000;
 }
+
+
+
+
+
+.d_page{
+    position:relative;
+    padding:0;
+    margin: 0 auto;
+    width:100%;
+    height:100%;
+}
+
+.doop_wrapper{
+    position:relative;
+    margin:0 auto;
+    width:400px;
+    top:20px;
+    
+}
+
+
+
+.boowrapper{
+    position:absolute;
+    margin:0 auto;
+    /*background-color:;*/
+    }
