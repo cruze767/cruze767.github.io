@@ -1463,7 +1463,8 @@ html, body{
 
 .wrapper_doop_d, .wrapper_doop_o, .wrapper_doop_o1, .wrapper_doop_p,  
 ._s, .wrapper_singa_i, .wrapper_singa_n, .wrapper_singa_g, .wrapper_singa_a, 
-.wrapper_boo_o1, .wrapper_boo_o, .wrapper_boo_b {
+.wrapper_boo_o1, .wrapper_boo_o, .wrapper_boo_b
+.s_sisi_wrapper, .wrapper_sisi_s1, .wrapper_sisi_i, .wrapper_sisi_i1{
     position:relative;
     -webkit-animation:spin 5s linear infinite;
     -moz-animation:spin 5s linear infinite;
@@ -1809,6 +1810,123 @@ html, body{
      background-color:#FFFF66;
      
 }
+
+/*/////////////////CPAGEEEEEEE/////////////////////*/
+
+.sisi_container{
+    height:100%;
+    width:100%;
+    margin-top:-100px;
+    
+}
+
+
+.sisi_wrapper{
+    position:relative;
+    margin:0 auto;
+    top:50%;
+    width:400px;
+    height:100px;
+    }
+
+
+/*/////////////SSSSSSSSSSSSSSSSSSSSSSSSSSSSSS/////////*/
+
+
+.s_sisi_wrapper{
+    position:relative;
+    height:80px;
+    width:80px;
+    left:0;
+    display:inline-block;
+}
+
+.wrapper_sisi_s1{
+    position:relative;
+    height:80px;
+    width:80px;
+    left:80px;
+    display:inline-block;
+}
+
+.dot_sisi_s{
+     position:relative;
+     left:30;
+     top:-10px;
+     height:20px;
+     width:20px;
+     border-radius: 90px 90px 90px 90px;
+     background-color:#000;
+}
+
+
+.s_sisi_top{
+     position:relative;
+     height:50px;
+     width:80px;
+     border-radius: 50px 20px 90px 50px;
+     background-color:#FF0066;
+}
+
+
+
+.s_sisi_bottom{
+     position:relative;
+   
+     height:40px;
+     width:80px;
+     top:40px;
+     border-radius: 90px 50px 50px 20px;
+     background-color:#FF0066;
+     
+}
+
+
+
+/*////////////////IIIIIIIIIIIIIIIIIIIIIIIIII//////////////*/
+
+
+.wrapper_sisi_i{
+    position:relative;
+    height:80px;
+    width:40px;
+    bottom:0px;
+    left:40px;
+    display:inline-block;
+    
+}
+
+.wrapper_sisi_i1{
+    position:relative;
+    height:80px;
+    width:40px;
+    bottom:0px;
+    left:120px;
+    display:inline-block;
+    
+}
+
+.sisi_i{
+    position:relative;
+    width:40px;
+    height:80px;
+    border-radius: 90px 90px 90px 90px;
+    background-color:#FF0066; 
+}
+
+.dot_sisi_i{
+    position:relative;
+     top:30;
+     left:10;
+     height:20px;
+     width:20px;
+     border-radius: 90px 90px 90px 90px;
+     background-color:#000;
+}
+
+
+
+
 
 /*/////////////////DPAGEEEEEEE/////////////////////*/
 
