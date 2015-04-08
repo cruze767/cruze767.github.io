@@ -20,7 +20,7 @@ html, body{
 }
 
 .wrapper{
-    position:relative;
+    position:absolute;
     margin:0 auto;
     top:50%;
     width:500px;
