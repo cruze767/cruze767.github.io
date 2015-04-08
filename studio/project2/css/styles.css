@@ -7,11 +7,6 @@ html, body{
     
 }
 
-
-
-
-
-
 .dot_middle{
     position:absolute;
     width:15px;
@@ -243,27 +238,6 @@ html, body{
 
 
 
-.wrapper_doop_d{
-    
-    top:370px;
-    left:20px;
-    position:absolute;
-    height:80px;
-    width:80px;
-    margin-top:-340;
-    
-        
-}
-
-
-.doop{
-     height:80px;
-     width:70px;
-     border-radius: 40px 90px 90px 40px;
-     background-color:#47D1D1;
-}
-
-
 .wrapper_d {
     top:33px;
     left:325px;
@@ -324,12 +298,6 @@ html, body{
      background-color:#000;
 }
 
-.doop_d{
-    height:80px;
-    width:70px;
-    border-radius: 40px 90px 90px 40px;
-    background-color:#47D1D1;
-}
 
 
     
@@ -343,20 +311,6 @@ html, body{
      background-color:#fff;
     
 }
-
-
-.dot_doop_d{
-     position:relative;
-     left:23;
-     top:30;
-     height:20px;
-     width:20px;
-     border-radius: 90px 90px 90px 90px;
-     background-color:#000;
-    
-}
-
-
 
 
 
@@ -778,83 +732,6 @@ html, body{
 
 
 
-.wrapper_boo_o1{
-    position:absolute;
-    left:95px;
-    height:90px;
-    width:90px;
-    top:0;
-    display:inline-block;
-    }
-    
-.wrapper_boo_o{
-    position:absolute;
-    left:190px;
-    height:90px;
-    width:90px;
-    top:0;
-    display:inline-block;
-    } 
- 
- 
-.boo_o{
-     height:80px;
-     width:80px;
-     border-radius: 90px 90px 90px 90px;
-     background-color:#FFFF66;
-    
-}
-
-.dot_boo_o{
-    position:relative;
-     top:30px;
-     right:-30px;
-     height:20px;
-     width:20px;
-     border-radius: 90px 90px 90px 90px;
-     background-color:#000;
-     
-}
- 
-    
-
-.wrapper_doop_o{
-    position:absolute;
-    left:110px;
-    height:90px;
-    width:90px;
-    top:283;
-}
-
-.wrapper_doop_o1{
-    position:absolute;
-    left:205px;
-    height:90px;
-    width:90px;
-    top:195;
-    }
-
-
-.doop_o{
-     height:80px;
-     width:80px;
-     border-radius: 90px 90px 90px 90px;
-     background-color:#47D1D1;
-    
-}
-
-
-.dot_doop_o{
-    position:relative;
-     top:30px;
-     right:-30px;
-     height:20px;
-     width:20px;
-     border-radius: 90px 90px 90px 90px;
-     background-color:#000;
-     
-}
-
 
 
 
@@ -906,13 +783,6 @@ html, body{
     
 /*LETTER PPPPPPPPPPPPPPPPPPPPPPPPPPP*/
 
-.wrapper_doop_p{
-    position:absolute;
-    height:80px;
-    width:80px;
-    top:110;
-    left:305px;
-}
 
 .wrapper_p{
     position:absolute;
@@ -951,36 +821,6 @@ html, body{
      width:20px;
      border-radius: 90px 90px 90px 90px;
      background-color:#fff;
-}
-
-.doop_p_top{
-    position:relative;
-    width:80px;
-    height:60px;
-    border-radius:70px 40px 40px 40px;
-    background-color:#47D1D1;
-    
-}
-
-.doop_p_bottom{
-    position:relative;
-    width:40px;
-    height:80px;
-    border-radius:70px 0px 70px 70px;
-    background-color:#47D1D1;
-    transform:rotate(0deg);
-}
-    
-
-
-.dot_doop_p{
-    position:relative;
-     top:25;
-     left:30;
-     height:20px;
-     width:20px;
-     border-radius: 90px 90px 90px 90px;
-     background-color:#000;
 }
 
 .wrapper_p:hover .p_top
@@ -1810,6 +1650,53 @@ html, body{
      
 }
 
+
+
+
+/*////////////////OOOOOOOOOOOOOOOOOOOOOOOOOOOO////////////*/
+
+
+
+
+.wrapper_boo_o1{
+    position:absolute;
+    left:95px;
+    height:90px;
+    width:90px;
+    top:0;
+    display:inline-block;
+    }
+    
+.wrapper_boo_o{
+    position:absolute;
+    left:190px;
+    height:90px;
+    width:90px;
+    top:0;
+    display:inline-block;
+    } 
+ 
+ 
+.boo_o{
+     height:80px;
+     width:80px;
+     border-radius: 90px 90px 90px 90px;
+     background-color:#FFFF66;
+    
+}
+
+.dot_boo_o{
+    position:relative;
+     top:30px;
+     right:-30px;
+     height:20px;
+     width:20px;
+     border-radius: 90px 90px 90px 90px;
+     background-color:#000;
+     
+}
+
+
 /*/////////////////CPAGEEEEEEE/////////////////////*/
 
 .sisi_container{
@@ -1929,18 +1816,147 @@ html, body{
 /*/////////////////DPAGEEEEEEE/////////////////////*/
 
 
-.d_page{
-    position:relative;
-    padding:0;
-    margin: 0 auto;
+.doop_container{
     width:100%;
     height:100%;
+    margin-top:-100px;
 }
 
 .doop_wrapper{
     position:relative;
     margin:0 auto;
+    top:50%;
     width:400px;
-    top:20px;
+    height:100px;
+}
+
+
+
+/*//////////DDDDDDDDDDDDDDDDDDDDDDDDD////////////*/
+
+
+
+.wrapper_doop_d{
     
+    top:0px;
+    left:0px;
+    position:relative;
+    height:80px;
+    width:80px;
+    display:inline-block;
+    
+        
+}
+
+
+.doop{
+     height:80px;
+     width:70px;
+     border-radius: 40px 90px 90px 40px;
+     background-color:#47D1D1;
+}
+
+
+.doop_d{
+    height:80px;
+    width:70px;
+    border-radius: 40px 90px 90px 40px;
+    background-color:#47D1D1;
+}
+
+.dot_doop_d{
+     position:relative;
+     left:23;
+     top:30;
+     height:20px;
+     width:20px;
+     border-radius: 90px 90px 90px 90px;
+     background-color:#000;
+    
+}
+
+
+/*///////////OOOOOOOOOOOOOOOOOOOOOOOOOOOO///////*/
+
+
+
+.wrapper_doop_o{
+    position:relative;
+    left:10px;
+    height:90px;
+    width:90px;
+    display:inline-block;
+}
+
+.wrapper_doop_o1{
+    position:relative;
+    left:10px;
+    height:90px;
+    width:90px;
+    display:inline-block;
+    }
+
+
+.doop_o{
+     height:80px;
+     width:80px;
+     border-radius: 90px 90px 90px 90px;
+     background-color:#47D1D1;
+    
+}
+
+
+.dot_doop_o{
+    position:relative;
+     top:30px;
+     right:-30px;
+     height:20px;
+     width:20px;
+     border-radius: 90px 90px 90px 90px;
+     background-color:#000;
+     
+}
+
+
+
+/*////////////PPPPPPPPPPPPPPPPPPPPPPPPPPP//////////*/
+
+
+.wrapper_doop_p{
+    position:relative;
+    height:80px;
+    width:80px;
+    top:0;
+    left:20px;
+    display:inline-block;
+}
+
+.doop_p_top{
+    position:relative;
+    width:80px;
+    height:60px;
+    border-radius:70px 40px 40px 40px;
+    background-color:#47D1D1;
+    
+}
+
+.doop_p_bottom{
+    position:relative;
+    width:40px;
+    height:80px;
+    border-radius:70px 0px 70px 70px;
+    background-color:#47D1D1;
+    transform:rotate(0deg);
+}
+    
+
+
+.dot_doop_p{
+    position:relative;
+     top:25;
+     left:30;
+     height:20px;
+     width:20px;
+     border-radius: 90px 90px 90px 90px;
+     background-color:#000;
 }
