@@ -3187,8 +3187,14 @@ html, body{
     top:50%;
     width:300px;
     height:100px;
-     -webkit-animation: scale .45s infinite;
-  animation: scale 1s infinite;
+        -webkit-animation-name: slideup;
+      -webkit-animation-duration: .4s;
+      -webkit-animation-iteration-count: infinite;
+      animation-name: slidesisi;
+      animation-duration: .4s;
+      animation-iteration-count: infinite;
+      -webkit-animation-delay: .5s;
+      animation-delay: .5s;
     }
 
 
