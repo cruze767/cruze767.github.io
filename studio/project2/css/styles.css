@@ -22,7 +22,7 @@ html, body{
 .wrapper{
     position:absolute;
     margin:0 auto;
-    top:20%;
+    top:10%;
     width:500px;
     height:500px;
     border-radius: 9000px 9000px 9000px 9000px;
