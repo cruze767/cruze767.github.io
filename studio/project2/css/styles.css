@@ -1637,14 +1637,14 @@ html, body{
     width:300px;
     height:100px;
     
-      -webkit-animation-name: slide;
+        -webkit-animation-name: slideup;
       -webkit-animation-duration: .6s;
       -webkit-animation-iteration-count: infinite;
-      animation-name: slide;
-      animation-duration: .1s;
+      animation-name: slideup;
+      animation-duration: .4s;
       animation-iteration-count: infinite;
-      -webkit-animation-delay: .0s;
-      animation-delay: .0s;
+      -webkit-animation-delay: .1s;
+      animation-delay: .1s;
     }
     
     
