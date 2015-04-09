@@ -1844,6 +1844,14 @@ html, body{
     top:50%;
     width:400px;
     height:100px;
+      -webkit-animation-name: slide;
+      -webkit-animation-duration: 2s;
+      -webkit-animation-iteration-count: infinite;
+      animation-name: slide;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      -webkit-animation-delay: .2s;
+      animation-delay: .2s;
 }
 
 
@@ -1945,6 +1953,8 @@ html, body{
     top:0;
     left:20px;
     display:inline-block;
+    
+    
 }
 
 .doop_p_top{
@@ -4823,3 +4833,57 @@ html, body{
     background-color:#99FF99;
     }
     
+
+
+
+/*///////////////TRANSFORM//////////////////*/
+
+@-webkit-keyframes rotate {
+  from { -webkit-transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@-webkit-keyframes rotateanti {
+  from { -webkit-transform: rotate(0deg); }
+  to { -webkit-transform: rotate(-360deg); }
+}
+
+@keyframes rotateanti {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(-360deg); }
+}
+
+@-webkit-keyframes scale {
+  0%   { -webkit-transform: scale(1,1); }
+  50%  { -webkit-transform: scale(2,2); }
+  100% { -webkit-transform: scale(1,1); }
+}
+
+@-moz-keyframes scale {
+  0%   { -moz-transform: scale(1,1); }
+  50%  { -moz-transform: scale(2,2); }
+  100% { -moz-transform: scale(1,1); }
+}
+
+@keyframes scale {
+  0%   { transform: scale(1,1); }
+  50%  { transform: scale(2,2); }
+  100% { transform: scale(1,1); }
+}
+
+@-webkit-keyframes slide {
+  0%   { left: -20%; }
+  50%  { left: 20%; }
+  100% { left: -20%; }
+}
+
+@keyframes slide {
+  0%   { left: -20%; }
+  50%  { left: 20%; }
+  100% { left: -20%; }
+}
