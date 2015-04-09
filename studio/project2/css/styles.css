@@ -1319,12 +1319,21 @@ html, body{
 .wrapper_tweet_t, .wrapper_tweet_w, .wrapper_tweet_e, .wrapper_tweet_e1, .wrapper_tweet_t1,
 .wrapper_twist_t, .wrapper_twist_w, .wrapper_twist_i, .wrapper_twist_s, .wrapper_twist_t1,
 .wrapper_wah_w, .wrapper_wah_a, .wrapper_wah_h,
-.wrapper_zaz_z, .wrapper_zaz_a, .wrapper_zaz_z1,
-.wrapper_exclamation_ex{
+.wrapper_zaz_z, .wrapper_zaz_a, .wrapper_zaz_z1{
     position:relative;
     -webkit-animation:spin 5s linear infinite;
     -moz-animation:spin 5s linear infinite;
     animation:spin 5s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.wrapper_exclamation_ex{
+    position:relative;
+    -webkit-animation:spin 1s linear infinite;
+    -moz-animation:spin 1s linear infinite;
+    animation:spin 1s linear infinite;
 }
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
@@ -1346,9 +1355,18 @@ html, body{
 .singa_wrapper{
     position:relative;
     margin:0 auto;
-    top:50%;
+    top:100%;
     width:520px;
     height:100px;
+       -webkit-animation-name: slideup;
+      -webkit-animation-duration: .6s;
+      -webkit-animation-iteration-count: infinite;
+      animation-name: slideup;
+      animation-duration: .6s;
+      animation-iteration-count: infinite;
+      -webkit-animation-delay: .1s;
+      animation-delay: .1s;
+
     
     
 }
@@ -1616,8 +1634,17 @@ html, body{
     position:relative;
     margin:0 auto;
     top:50%;
-    width:500px;
+    width:300px;
     height:100px;
+    
+      -webkit-animation-name: slide;
+      -webkit-animation-duration: .6s;
+      -webkit-animation-iteration-count: infinite;
+      animation-name: slide;
+      animation-duration: .1s;
+      animation-iteration-count: infinite;
+      -webkit-animation-delay: .0s;
+      animation-delay: .0s;
     }
     
     
@@ -1729,6 +1756,17 @@ html, body{
     top:50%;
     width:400px;
     height:100px;
+    
+     -webkit-animation-name: slidesisi;
+      -webkit-animation-duration: 1.2s;
+      -webkit-animation-iteration-count: infinite;
+      animation-name: slidesisi;
+      animation-duration: 1.2s;
+      animation-iteration-count: infinite;
+      -webkit-animation-delay: 1s;
+      animation-delay: 1s;
+      
+
     }
 
 
@@ -2007,6 +2045,17 @@ html, body{
     top:50%;
     width:400px;
     height:100px;
+     height: 150px;
+     
+       -webkit-animation-name: slideup;
+      -webkit-animation-duration: .5s;
+      -webkit-animation-iteration-count: infinite;
+      animation-name: slideup;
+      animation-duration: .5s;
+      animation-iteration-count: infinite;
+      -webkit-animation-delay: .0s;
+      animation-delay: .0s;
+    
 }
 
 
@@ -2217,6 +2266,15 @@ html, body{
     top:50%;
     width:340px;
     height:100px;
+    
+       -webkit-animation-name: slideup;
+      -webkit-animation-duration: .9s;
+      -webkit-animation-iteration-count: infinite;
+      animation-name: slideup;
+      animation-duration: .5s;
+      animation-iteration-count: infinite;
+      -webkit-animation-delay: .1s;
+      animation-delay: .1s;
     }
     
     
@@ -2367,6 +2425,15 @@ html, body{
     top:50%;
     width:650px;
     height:100px;
+    
+       -webkit-animation-name: slideup;
+      -webkit-animation-duration: .7s;
+      -webkit-animation-iteration-count: infinite;
+      animation-name: slideup;
+      animation-duration: .5s;
+      animation-iteration-count: infinite;
+      -webkit-animation-delay: .0s;
+      animation-delay: .0s;
     }
     
     
@@ -2688,7 +2755,7 @@ html, body{
 .hully_container{
     width:100%;
     height:100%;
-    margin-top:-100px;
+    margin-top:-84px;
     }
 
 .hully_wrapper{
@@ -2696,8 +2763,13 @@ html, body{
     margin:0 auto;
     top:50%;
     width:500px;
-    height:100px;
-    }
+    -moz-animation: 3s ease 0s normal none infinite swing;
+    -moz-transform-origin: center top;
+    -webkit-animation:swing .5s infinite ease-in-out;
+    -webkit-transform-origin:top;
+}
+
+
 
 /*////////HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH////////*/
 
@@ -2919,6 +2991,12 @@ html, body{
     top:50%;
     width:500px;
     height:100px;
+    
+    -moz-animation: 2s ease 0s normal none infinite swing;
+    -moz-transform-origin: center top;
+    -webkit-animation:swinghitch .5s infinite ease-in-out;
+    -webkit-transform-origin:top;
+    
     }
 
 
@@ -3109,6 +3187,8 @@ html, body{
     top:50%;
     width:300px;
     height:100px;
+     -webkit-animation: scale .45s infinite;
+  animation: scale 1s infinite;
     }
 
 
@@ -3218,6 +3298,16 @@ html, body{
     top:50%;
     width:300px;
     height:100px;
+    
+  
+     -webkit-animation-name: slideup;
+      -webkit-animation-duration: .6s;
+      -webkit-animation-iteration-count: infinite;
+      animation-name: slidesisi;
+      animation-duration: 1.2s;
+      animation-iteration-count: infinite;
+      -webkit-animation-delay: 1s;
+      animation-delay: 1s;
     }
 
 
@@ -3316,7 +3406,8 @@ html, body{
     width:100%;
     height:100%;
     margin-top:-100px;
-    }
+    
+}
 
 
 
@@ -3326,6 +3417,10 @@ html, body{
     top:50%;
     width:450px;
     height:100px;
+    -moz-animation: 1s ease 0s normal none infinite swing;
+    -moz-transform-origin: center top;
+    -webkit-animation:swingmash .51s infinite ease-in-out;
+    -webkit-transform-origin:top;
     }
 
 
@@ -3543,6 +3638,15 @@ html, body{
     top:50%;
     width:300px;
     height:100px;
+    
+    -webkit-animation-name: slideup;
+      -webkit-animation-duration: .8s;
+      -webkit-animation-iteration-count: infinite;
+      animation-name: slideup;
+      animation-duration: .8s;
+      animation-iteration-count: infinite;
+      -webkit-animation-delay: .1s;
+      animation-delay: .1s;
     }
 
 /*//////PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP///////////*/
@@ -3689,6 +3793,12 @@ html, body{
     top:50%;
     width:450px;
     height:100px;
+    
+    -moz-animation: 2s ease 0s normal none infinite swing;
+    -moz-transform-origin: center top;
+    -webkit-animation:swinghitch .8s infinite ease-in-out;
+    -webkit-transform-origin:top;
+    
     }
 
 /*/////////////SSSSSSSSSSSSSSSSSSSSSSSSSSSSSS//////////////*/
@@ -3907,6 +4017,15 @@ html, body{
     top:50%;
     width:550px;
     height:100px;
+    
+      -webkit-animation-name: slidesisi;
+      -webkit-animation-duration: 1.2s;
+      -webkit-animation-iteration-count: infinite;
+      animation-name: slidesisi;
+      animation-duration: 1.2s;
+      animation-iteration-count: infinite;
+      -webkit-animation-delay: 1s;
+      animation-delay: 1s;
     }
 
 
@@ -4072,6 +4191,15 @@ html, body{
     top:50%;
     width:550px;
     height:100px;
+    
+     -webkit-animation-name: slideup;
+      -webkit-animation-duration: .5s;
+      -webkit-animation-iteration-count: infinite;
+      animation-name: slideup;
+      animation-duration: .4s;
+      animation-iteration-count: infinite;
+      -webkit-animation-delay: .1s;
+      animation-delay: .1s;
     }
 
 
@@ -4289,6 +4417,13 @@ html, body{
     top:50%;
     width:530px;
     height:100px;
+    
+       -moz-animation: 2s ease 0s normal none infinite swing;
+    -moz-transform-origin: center top;
+    -webkit-animation:swinghitch .7s infinite ease-in-out;
+    -webkit-transform-origin:top;
+    
+    
     }
     
     
@@ -4501,6 +4636,15 @@ html, body{
     top:50%;
     width:320px;
     height:100px;
+          -webkit-animation-name: slidesisi;
+      -webkit-animation-duration: .9s;
+      -webkit-animation-iteration-count: infinite;
+      animation-name: slidesisi;
+      animation-duration: .9s;
+      animation-iteration-count: infinite;
+      -webkit-animation-delay: .1s;
+      animation-delay: .1s;
+    
     }
     
 /*///////////////WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW////*/
@@ -4673,6 +4817,15 @@ html, body{
     top:50%;
     width:320px;
     height:100px;
+    
+      -webkit-animation-name: slideup;
+      -webkit-animation-duration: .85s;
+      -webkit-animation-iteration-count: infinite;
+      animation-name: slidesisi;
+      animation-duration: .85s;
+      animation-iteration-count: infinite;
+      -webkit-animation-delay: 2s;
+      animation-delay: 2s;
     }
 
 /*/////////////ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ*/
@@ -4796,6 +4949,9 @@ html, body{
     top:50%;
     width:550px;
     height:100px;
+ 
+  -webkit-animation: rotate 3s linear infinite;
+  animation: rotate 3s linear infinite;
     }
 
 /*////////////////!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!////////////////////*/
@@ -4837,6 +4993,19 @@ html, body{
 
 
 /*///////////////TRANSFORM//////////////////*/
+
+
+
+@-webkit-keyframes rotatehalf {
+  from { -webkit-transform: rotate(80deg); }
+  to { -webkit-transform: rotate(-80deg); }
+}
+
+@keyframes rotatehalf {
+  from { transform: rotate(80deg); }
+  to { transform: rotate(-80deg); }
+}
+
 
 @-webkit-keyframes rotate {
   from { -webkit-transform: rotate(0deg); }
@@ -4886,4 +5055,64 @@ html, body{
   0%   { left: -20%; }
   50%  { left: 20%; }
   100% { left: -20%; }
+}
+
+
+@-webkit-keyframes slidesisi {
+  0%   { left: -10%; }
+  50%  { left: 10%; }
+  100% { left: -10%; }
+}
+
+@keyframes slidesisi {
+  0%   { left: -10%; }
+  50%  { left: 10%; }
+  100% { left: -10%; }
+}
+
+
+@-webkit-keyframes slideup {
+  0%   { top: 60%; }
+  50%  { top: 70%; }
+  100% { top: 60%; }
+}
+
+@keyframes slideup {
+  0%   { top: 60%; }
+  50%  { top: 70%; }
+  100% { top: 60%; }
+}
+
+
+@-moz-keyframes swing{
+    0%{-moz-transform:rotate(-3deg)}
+    50%{-moz-transform:rotate(3deg)}
+    100%{-moz-transform:rotate(-3deg)}
+}
+@-webkit-keyframes swing{
+    0%{-webkit-transform:rotate(-3deg)}
+    50%{-webkit-transform:rotate(3deg)}
+    100%{-webkit-transform:rotate(-3deg)}
+}
+
+@-moz-keyframes swinghitch{
+    0%{-moz-transform:rotate(-5deg)}
+    50%{-moz-transform:rotate(3deg)}
+    100%{-moz-transform:rotate(-5deg)}
+}
+@-webkit-keyframes swinghitch{
+    0%{-webkit-transform:rotate(-5deg)}
+    50%{-webkit-transform:rotate(3deg)}
+    100%{-webkit-transform:rotate(-5deg)}
+}
+
+@-moz-keyframes swingmash{
+    0%{-moz-transform:rotate(-3deg)}
+    50%{-moz-transform:rotate(3deg)}
+    100%{-moz-transform:rotate(-3deg)}
+}
+@-webkit-keyframes swingmash{
+    0%{-webkit-transform:rotate(-3deg)}
+    50%{-webkit-transform:rotate(3deg)}
+    100%{-webkit-transform:rotate(-3deg)}
 }
