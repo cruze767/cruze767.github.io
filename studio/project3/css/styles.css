@@ -6,17 +6,18 @@ margin:0 auto;
 
 }
 
-.gif {
-    width:140px;
-    height:130px;
+#gif {
+    width:115px;
+    height:115px;
     position:absolute;
     left:45%;
     top:70%;
-    background: url('train_g.png');
+    background-image:url(../g.png);
+    background-repeat:no-repeat;
+}
     
-    }
-    
-.gif:hover {
+#gif:hover {
     cursor:pointer; 
-    background:url('subway.gif');
-    }
+	background:url(../subway.gif);
+
+}
