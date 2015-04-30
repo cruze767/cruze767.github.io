@@ -6,7 +6,7 @@ margin:0 auto;
 
 }
 
-#gif {
+.gif {
     width:115px;
     height:115px;
     position:absolute;
@@ -16,8 +16,29 @@ margin:0 auto;
     background-repeat:no-repeat;
 }
     
-#gif:hover {
+.gif:hover {
     cursor:pointer; 
 	background:url(../subway.gif);
 
 }
+
+.back{
+    width:115px;
+    height:115px;
+    position:absolute;
+    left:45%;
+    top:75%;
+    background-image:url(../back.png);
+    background-repeat:no-repeat;
+
+}
+
+.back:hover{
+    
+    }
+
+#rat{
+    position:absolute;
+    left:25%;
+    top:20%;
+    }
