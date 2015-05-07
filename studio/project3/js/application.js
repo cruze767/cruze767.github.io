@@ -101,23 +101,18 @@ var selectedvideo = false;
 var selectedtrain = false;
   
 $("#button").click(function() {
+    Ride.random_num = Math.ceil(Math.random() * trains.length),
   choose_train();
   choose_video();
-  $(".container").html('<img src="' + videos[Math.floor(Math.random()*videos.length)]+ '">');
+
 });
 
 function choose_train() {
-  Ride.random_num = Math.ceil(Math.random() * trains.length),
   $('#button').attr('class', '').addClass(trains[Ride.random_num]);
 }
 
 function choose_video() {
-  $('.youtube-video').attr('src', videos[Ride.random_num]);
+  $('.youtube-video').attr('src', 'https://www.youtube.com/embed/' + videos[Ride.random_num] + '?rel=0vq=hd720&autohide=1&showinfo=0&autoplay=1&loop=1&controls=0&enablejsapi=1');
 }
 
 
-$("#button").click(function() {
-  choose_train();
-  choose_video();
-  $(".container").html('<iframe width="100%" height="100%" src="' + videos[Math.floor(Math.random()*videos.length)]+ '">');
-});

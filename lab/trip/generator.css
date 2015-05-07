@@ -5,9 +5,6 @@ body, html {
   margin:0;
   font-size:0;
   background-repeat:repeat-x;
-
- 
-  
 }
 
 .container{
@@ -17,15 +14,36 @@ body, html {
   margin:0 auto;
 }
 
+
+.column1{
+  width:33.3%;
+  height:100%;
+  display:inline-block;
+  }
+  
+.column2{
+  width:33.3%;
+  height:100%;
+  display:inline-block;
+  }
+  
+.column3{
+  width:33.3%;
+  height:100%;
+  display:inline-block;
+  }
+
+
 .box{
-  width:300px;
+  position:relative;
+  width:100%;
   display:inline-block;
   margin:0 auto;
 
 }
 	
 .box img {
-  max-width:100%
+  max-width:100%;
   
 }
 	
@@ -38,8 +56,8 @@ body, html {
   font-weight: bold;
   font-size: 24px;
   position: absolute;
-  top: 70%;
-  right: 45%;
+  top: 65%;
+  right: 46%;
   color: white;
   line-height: 100px;
   text-align: center;
