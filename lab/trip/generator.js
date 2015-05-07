@@ -7,8 +7,9 @@ var gifs = ["http://media.giphy.com/media/l41m0D66I0lUQZIQw/giphy.gif",
 	"http://media.giphy.com/media/xTiTnIA85uo0UtHd9C/giphy.gif",
 	"http://media.giphy.com/media/l41lSS4Phme3VDKZa/giphy.gif",
 	"http://media.giphy.com/media/xTiTnDP8WpEsyitxTO/giphy.gif",
-	"http://media.giphy.com/media/3oEduKC1gvOmgY46Ag/giphy.gif"
-	
+	"http://media.giphy.com/media/3oEduKC1gvOmgY46Ag/giphy.gif",
+	"http://media.giphy.com/media/l41lNqEeM4aHMwK0E/giphy.gif",
+	"http://media.giphy.com/media/l41lOIaX2Ri0grAhG/giphy.gif"
 	];
 	
 

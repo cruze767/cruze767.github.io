@@ -1,11 +1,11 @@
 body, html {
   font-family: Arial, sans-serif;
   height: 100%;
-  overflow: visible;
+  overflow: hidden;
   margin:0;
   font-size:0;
   background-repeat:repeat-x;
-  overflow-x: hidden;
+
  
   
 }
