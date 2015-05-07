@@ -1,44 +1,337 @@
 body{
 height:100%;
 width:100%;
-background-color:eee;
+background-color:white;
 margin:0 auto;
-
 }
 
-.gif {
+#button {
     width:115px;
     height:115px;
     position:absolute;
     left:45%;
     top:70%;
-    background-image:url(../g.png);
+    background-image:url(../img/subway.gif);
     background-repeat:no-repeat;
+    z-index:2;
 }
+
+.container{
     
-.gif:hover {
-    cursor:pointer; 
-	background:url(../subway.gif);
-
-}
-
-.back{
+    }
+    
+    
+.rat_a{
     width:115px;
     height:115px;
     position:absolute;
     left:45%;
-    top:75%;
-    background-image:url(../back.png);
+    top:70%;
+    background-image:url(../img/a.png);
     background-repeat:no-repeat;
-
-}
-
-.back:hover{
+    }
     
-    }
-
-#rat{
+/*trains*/
+    
+.warriors_l{
+    width:115px;
+    height:115px;
     position:absolute;
-    left:25%;
-    top:20%;
+    left:45%;
+    top:70%;
+    background-image:url(../img/l.png);
+    background-repeat:no-repeat;
     }
+    
+.seinfield_1{
+    width:115px;
+    height:115px;
+    position:absolute;
+    left:45%;
+    top:70%;
+    background-image:url(../img/1.png);
+    background-repeat:no-repeat;
+    }
+    
+.warriors_coney_d{
+    width:115px;
+    height:115px;
+    position:absolute;
+    left:45%;
+    top:70%;
+    background-image:url(../img/d.png);
+    background-repeat:no-repeat;
+    }
+    
+    
+.warriors_rec_d{
+    width:115px;
+    height:115px;
+    position:absolute;
+    left:45%;
+    top:70%;
+    background-image:url(../img/d.png);
+    background-repeat:no-repeat;
+    }
+    
+.christmas_story_1{
+    width:115px;
+    height:115px;
+    position:absolute;
+    left:45%;
+    top:70%;
+    background-image:url(../img/1.png);
+    background-repeat:no-repeat;
+    }
+    
+.star_wars_6{
+    width:115px;
+    height:115px;
+    position:absolute;
+    left:45%;
+    top:70%;
+    background-image:url(../img/6.png);
+    background-repeat:no-repeat;
+    }
+    
+.underwear_j{
+    width:115px;
+    height:115px;
+    position:absolute;
+    left:45%;
+    top:70%;
+    background-image:url(../img/j.png);
+    background-repeat:no-repeat;
+    }
+    
+.mirror_6{
+    width:115px;
+    height:115px;
+    position:absolute;
+    left:45%;
+    top:70%;
+    background-image:url(../img/6.png);
+    background-repeat:no-repeat;
+    }
+    
+.spa_q{
+    width:115px;
+    height:115px;
+    position:absolute;
+    left:45%;
+    top:70%;
+    background-image:url(../img/q.png);
+    background-repeat:no-repeat;
+    }
+    
+.point_l{
+    width:115px;
+    height:115px;
+    position:absolute;
+    left:45%;
+    top:70%;
+    background-image:url(../img/l.png);
+    background-repeat:no-repeat;
+    }
+    
+.gabriel_l{
+    width:115px;
+    height:115px;
+    position:absolute;
+    left:45%;
+    top:70%;
+    background-image:url(../img/l.png);
+    background-repeat:no-repeat;
+    }
+    
+    
+.stairs_d{
+    width:115px;
+    height:115px;
+    position:absolute;
+    left:45%;
+    top:70%;
+    background-image:url(../img/d.png);
+    background-repeat:no-repeat;
+    }  
+  
+   
+.mj_g{
+    width:115px;
+    height:115px;
+    position:absolute;
+    left:45%;
+    top:70%;
+    background-image:url(../img/g.png);
+    background-repeat:no-repeat;
+    }
+    
+.mj_g{
+    width:115px;
+    height:115px;
+    position:absolute;
+    left:45%;
+    top:70%;
+    background-image:url(../img/g.png);
+    background-repeat:no-repeat;
+    }
+    
+    
+.bending_4{
+    width:115px;
+    height:115px;
+    position:absolute;
+    left:45%;
+    top:70%;
+    background-image:url(../img/4.png);
+    background-repeat:no-repeat;
+    }
+    
+.sub_city_z{
+    width:115px;
+    height:115px;
+    position:absolute;
+    left:45%;
+    top:70%;
+    background-image:url(../img/z.png);
+    background-repeat:no-repeat;
+    }
+    
+    
+.dance_party_l{
+    width:115px;
+    height:115px;
+    position:absolute;
+    left:45%;
+    top:70%;
+    background-image:url(../img/l.png);
+    background-repeat:no-repeat;
+    }
+    
+    
+.ballet_q{
+    width:115px;
+    height:115px;
+    position:absolute;
+    left:45%;
+    top:70%;
+    background-image:url(../img/q.png);
+    background-repeat:no-repeat;
+    }
+    
+.lion_king_a{
+    width:115px;
+    height:115px;
+    position:absolute;
+    left:45%;
+    top:70%;
+    background-image:url(../img/a.png);
+    background-repeat:no-repeat;
+    }
+    
+.bless_r{
+    width:115px;
+    height:115px;
+    position:absolute;
+    left:45%;
+    top:70%;
+    background-image:url(../img/r.png);
+    background-repeat:no-repeat;
+    }
+    
+    
+.dance_3{
+    width:115px;
+    height:115px;
+    position:absolute;
+    left:45%;
+    top:70%;
+    background-image:url(../img/3.png);
+    background-repeat:no-repeat;
+    }
+    
+.showtime_6{
+    width:115px;
+    height:115px;
+    position:absolute;
+    left:45%;
+    top:70%;
+    background-image:url(../img/6.png);
+    background-repeat:no-repeat;
+    }
+    
+.santa_1{
+    width:115px;
+    height:115px;
+    position:absolute;
+    left:45%;
+    top:70%;
+    background-image:url(../img/1.png);
+    background-repeat:no-repeat;
+    }
+    
+.dancers_l{
+    width:115px;
+    height:115px;
+    position:absolute;
+    left:45%;
+    top:70%;
+    background-image:url(../img/l.png);
+    background-repeat:no-repeat;
+    }
+    
+.crazy_l{
+    width:115px;
+    height:115px;
+    position:absolute;
+    left:45%;
+    top:70%;
+    background-image:url(../img/l.png);
+    background-repeat:no-repeat;
+    }
+    
+.graffiti_f{
+    width:115px;
+    height:115px;
+    position:absolute;
+    left:45%;
+    top:70%;
+    background-image:url(../img/f.png);
+    background-repeat:no-repeat;
+    }
+    
+.voice_e{
+    width:115px;
+    height:115px;
+    position:absolute;
+    left:45%;
+    top:70%;
+    background-image:url(../img/e.png);
+    background-repeat:no-repeat;
+    }
+    
+.bee_man_5{
+    width:115px;
+    height:115px;
+    position:absolute;
+    left:45%;
+    top:70%;
+    background-image:url(../img/5.png);
+    background-repeat:no-repeat;
+    }
+    
+.puppet_g{
+    width:115px;
+    height:115px;
+    position:absolute;
+    left:45%;
+    top:70%;
+    background-image:url(../img/g.png);
+    background-repeat:no-repeat;
+    }
+    
+
+
+
+    
+
