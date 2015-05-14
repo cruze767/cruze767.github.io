@@ -6,13 +6,11 @@ var videos = [
     "qdFF5C3ZR_I", 
     // rat a train
     "t-3OhLZTSPA",
-    // warriors l train
+    // warriors a train
     "NtsIazfl4PY",
     // seinfield 1 train
     "K9c4hCJZhx8",
     // the warriors coney Q train
-    "euEZOgIYjpY",
-    // warriors rec test d train
     "I9JZSlGiaNg",
     // movies in real life christmas story 1 train
     "J5gCeWEGiQI",
@@ -27,21 +25,13 @@ var videos = [
     // point here if L train
     "EpOAScjsr8g",
     // gabriel royal there were times L train
-    "44807536",
+    "J98R1OiOxqY",
     // stairs d train
     "dsUXAEzaC3Q",
     // mj bad G train
-    "38788768",
-    // bending sounds 4 train
-    "19536258",
-    // sub city z train
-    "24281136",
-    // subway dance l train
-    "67182346",
-    // ballet subway Q
     "W9QMM_nTuC4",
     // lion king A
-    "73022720",
+    "H5Q60b8ulfM",
     // animation bless you r train
     "fJ_3IWGocP8",
     // subway dance train 3 train
@@ -49,51 +39,55 @@ var videos = [
     // showtime dance battle 6 train
     "LAcFB8F3aYY",
     // feliz navidad santa 1 train
-    "72355212",
+    "E3QFJqu8X9g",
     // dancers 14 st L train
-    "37693591",
-    // crazy person on subway
-    "107840358",
+    "vuB3rRpYBHI",
     // graffiti f train
-    "51655496",
-    // voice of train e
     "uAm8XWTv30U",
     // crazy bee drug man 5 train
-    "5exE0FjhkD8"
+    "5exE0FjhkD8",
     // puppet dude g train
+    "vWF3IDk9Gek",
+    // undercity 4 train
+    "Wpoq_rISBLQ",
+    // FIGHT 1 train?
+    "vI3_wLthwUc",
+    // picking up girls d train
+    "stK3ghlWD84",
+    // showtime q train
+    "LM7fZHtxEvQ"
+    //underground by me 
 ];
 
 
 var trains = [
-  "img/a.png",
-  "img/l.png",
-  "img/1.png",
-  "img/q.png",
-  "img/d.png",
-  "img/1.png",
-  "img/6.png",
-  "img/j.png",
-  "img/6.png",
-  "img/q.png",
-  "img/l.png",
-  "img/l.png",
-  "img/d.png",
-  "img/g.png",
-  "img/4.png",
-  "img/z.png",
-  "img/l.png",
-  "img/q.png",
-  "img/a.png",
-  "img/r.png",
-  "img/3.png",
-  "img/6.png",
-  "img/1.png",
-  "img/l.png",
-  "img/j.png",
-  "img/f.png",
-  "img/e.png",
-  "img/5.png",
-  "img/g.png"
+  "train-a",
+  "train-a",
+  "train-1",
+  "train-q",
+  "train-1",
+  "train-6",
+  "train-j",
+  "train-6",
+  "train-q",
+  "train-l",
+  "train-l",
+  "train-d",
+  "train-g",
+  "train-a",
+  "train-r",
+  "train-3",
+  "train-6",
+  "train-1",
+  "train-l",
+  "train-f",
+  "train-5",
+  "train-g",
+  "train-4",
+  "train-1",
+  "train-d",
+  "train-q",
+  "train-g"
   
   ];
   
@@ -101,7 +95,7 @@ var selectedvideo = false;
 var selectedtrain = false;
   
 $("#button").click(function() {
-    Ride.random_num = Math.ceil(Math.random() * trains.length),
+    Ride.random_num = Math.floor(Math.random() * trains.length),
   choose_train();
   choose_video();
 
@@ -114,5 +108,4 @@ function choose_train() {
 function choose_video() {
   $('.youtube-video').attr('src', 'https://www.youtube.com/embed/' + videos[Ride.random_num] + '?rel=0vq=hd720&autohide=1&showinfo=0&autoplay=1&loop=1&controls=0&enablejsapi=1');
 }
-
 
